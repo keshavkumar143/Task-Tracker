@@ -1,0 +1,94 @@
+.main {
+  background: linear-gradient(90deg, #041438 0%, #000000 100%);
+  width: 50vw;
+  color: white;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  padding: 5%;
+  font-family: 'Noto Serif';
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer; 
+}
+
+.btn:hover {
+  background-color: white;
+  color: #08132f;
+}
+
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputForm {
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.btnSave {
+  width: 100px;
+  height: 30px;
+  pad: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer; 
+  font-size: larger;
+}
+
+.btnwrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.Card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: rgb(3, 4, 34);
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
